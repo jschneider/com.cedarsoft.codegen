@@ -1,3 +1,0 @@
-the content of the file...
-second line!
-third line!

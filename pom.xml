@@ -8,56 +8,15 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.cedarsoft</groupId>
-  <artifactId>commons</artifactId>
-  <packaging>pom</packaging>
-  <version>5.1.2-SNAPSHOT</version>
-  <name>cedarsoft Commons</name>
+  <artifactId>codegen</artifactId>
+  <packaging>bundle</packaging>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>cedarsoft Codegen</name>
 
   <scm>
     <connection>scm:git:git://git.cedarsoft.com/com.cedarsoft.commons</connection>
     <developerConnection>scm:git:ssh://git.cedarsoft.com/git/com.cedarsoft.commons</developerConnection>
   </scm>
-
-  <modules>
-    <module>app</module>
-    <module>cluster</module>
-    <module>cmd</module>
-    <module>codegen</module>
-    <module>collections</module>
-    <module>commons</module>
-    <module>concurrent</module>
-    <module>configuration</module>
-    <module>crypt</module>
-    <module>exceptions</module>
-    <module>execution</module>
-    <module>file</module>
-    <module>history</module>
-    <module>id</module>
-    <module>image</module>
-    <module>inject</module>
-    <module>io</module>
-    <module>license</module>
-    <module>lookup</module>
-    <module>mail</module>
-    <module>objectaccess</module>
-    <module>presenter</module>
-    <module>provider</module>
-    <module>renderer</module>
-    <module>registry</module>
-    <module>repository</module>
-    <module>spring</module>
-    <!--<module>string-conversion</module>-->
-    <module>struct</module>
-    <module>swing</module>
-    <module>test-utils</module>
-    <module>version</module>
-    <module>workflow</module>
-    <module>xml-commons</module>
-    <module>zip</module>
-    <!--<module>legacy</module>-->
-    <!--<module>ooorg</module>-->
-    <!--<module>excel</module>-->
-  </modules>
 
   <dependencyManagement>
     <dependencies>
@@ -305,6 +264,53 @@
       <groupId>org.easytesting</groupId>
       <artifactId>fest-assert</artifactId>
       <scope>test</scope>
+    </dependency>
+
+
+    <dependency>
+      <groupId>com.sun</groupId>
+      <artifactId>tools</artifactId>
+      <version>1.6</version>
+      <scope>system</scope>
+      <systemPath>${java.home}/../lib/tools.jar</systemPath>
+    </dependency>
+
+    <dependency>
+      <groupId>com.cedarsoft.commons</groupId>
+      <artifactId>execution</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.cedarsoft.commons</groupId>
+      <artifactId>exceptions</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-cli</groupId>
+      <artifactId>commons-cli</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.easytesting</groupId>
+      <artifactId>fest-reflect</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.easytesting</groupId>
+      <artifactId>fest-util</artifactId>
+    </dependency>
+
+
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.sun.xml.bind</groupId>
+      <artifactId>jaxb-xjc</artifactId>
     </dependency>
   </dependencies>
 
