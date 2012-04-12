@@ -15,8 +15,8 @@
   <name>cedarsoft Codegen</name>
 
   <scm>
-    <connection>scm:git:git://git.cedarsoft.com/com.cedarsoft.commons</connection>
-    <developerConnection>scm:git:ssh://git.cedarsoft.com/git/com.cedarsoft.commons</developerConnection>
+    <connection>scm:git:git://git.cedarsoft.com/com.cedarsoft.codegen</connection>
+    <developerConnection>scm:git:ssh://git.cedarsoft.com/git/com.cedarsoft.codegen</developerConnection>
   </scm>
 
   <dependencyManagement>
