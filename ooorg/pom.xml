@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <parent>
+    <groupId>com.cedarsoft</groupId>
+    <artifactId>commons</artifactId>
+    <version>1.4.0-SNAPSHOT</version>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cedarsoft.commons</groupId>
+  <artifactId>ooorg</artifactId>
+  <name>OpenOffice Integration</name>
+
+  <properties>
+    <openoffice.version>2.3.1</openoffice.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>net.sf.jooreports</groupId>
+      <artifactId>jooreports</artifactId>
+      <version>2.1-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.artofsolving</groupId>
+      <artifactId>jodconverter</artifactId>
+      <version>2.2.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.openoffice</groupId>
+      <artifactId>juh</artifactId>
+      <version>${openoffice.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openoffice</groupId>
+      <artifactId>jurt</artifactId>
+      <version>${openoffice.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openoffice</groupId>
+      <artifactId>ridl</artifactId>
+      <version>${openoffice.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openoffice</groupId>
+      <artifactId>unoil</artifactId>
+      <version>${openoffice.version}</version>
+    </dependency>
+
+
+  </dependencies>
+
+</project>
