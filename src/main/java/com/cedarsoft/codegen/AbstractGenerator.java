@@ -35,7 +35,7 @@ import com.cedarsoft.codegen.parser.Classpath;
 import com.cedarsoft.execution.Executor;
 import com.google.common.collect.ImmutableList;
 import com.google.common.io.Files;
-import com.sun.tools.xjc.api.util.APTClassLoader;
+import com.sun.tools.xjc.api.util.ApClassLoader;
 import com.sun.tools.xjc.api.util.ToolsJarNotFoundException;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.filefilter.TrueFileFilter;
@@ -126,13 +126,13 @@ public abstract class AbstractGenerator {
   }
 
   @Nonnull
-  public APTClassLoader createAptClassLoader() throws ToolsJarNotFoundException {
+  public ApClassLoader createAptClassLoader() throws ToolsJarNotFoundException {
     return createAptClassLoader( getDefaultClassLoader() );
   }
 
   @Nonnull
-  public APTClassLoader createAptClassLoader( @Nonnull ClassLoader defaultClassLoader ) throws ToolsJarNotFoundException {
-    return new APTClassLoader( defaultClassLoader, getPackagePrefixes().toArray( new String[getPackagePrefixes().size()] ) );
+  public ApClassLoader createAptClassLoader( @Nonnull ClassLoader defaultClassLoader ) throws ToolsJarNotFoundException {
+    return new ApClassLoader( defaultClassLoader, getPackagePrefixes().toArray( new String[getPackagePrefixes().size()] ) );
   }
 
   @Nonnull
