@@ -10,13 +10,13 @@
   <groupId>com.cedarsoft</groupId>
   <artifactId>codegen</artifactId>
   <packaging>bundle</packaging>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>cedarsoft Codegen</name>
 
   <scm>
     <connection>scm:git:git://git.cedarsoft.com/com.cedarsoft.codegen</connection>
     <developerConnection>scm:git:ssh://git.cedarsoft.com/git/com.cedarsoft.codegen</developerConnection>
-    <tag>codegen-1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <dependencyManagement>
