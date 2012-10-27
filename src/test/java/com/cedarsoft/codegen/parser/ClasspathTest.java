@@ -36,7 +36,7 @@ import org.junit.rules.*;
 
 import java.io.File;
 
-import static org.fest.assertions.Assertions.*;
+import static org.fest.assertions.api.Assertions.*;
 
 
 /**
