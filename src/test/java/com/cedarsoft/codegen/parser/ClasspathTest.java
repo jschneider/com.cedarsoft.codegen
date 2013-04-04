@@ -32,11 +32,10 @@
 package com.cedarsoft.codegen.parser;
 
 import org.junit.*;
-import org.junit.rules.*;
 
 import java.io.File;
 
-import static org.fest.assertions.api.Assertions.*;
+import static org.fest.assertions.Assertions.assertThat;
 
 
 /**
