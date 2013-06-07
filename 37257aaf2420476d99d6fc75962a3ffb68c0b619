@@ -1,11 +1,11 @@
 {
   "built_on": "master",
-  "duration": 89.319,
-  "full_display_name": "com.cedarsoft.codegen #71",
-  "id": "2013-06-06_02-19-11",
-  "number": 71,
+  "duration": 81.267,
+  "full_display_name": "com.cedarsoft.codegen #72",
+  "id": "2013-06-07_02-19-12",
+  "number": 72,
   "result": "SUCCESS",
   "status_message": "?",
-  "time": "2013-06-06 02:19:11 +0200",
-  "url": "job/com.cedarsoft.codegen/71/"
+  "time": "2013-06-07 02:19:12 +0200",
+  "url": "job/com.cedarsoft.codegen/72/"
 }
